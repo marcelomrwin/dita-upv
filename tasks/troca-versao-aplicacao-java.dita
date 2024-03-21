@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="troca-versao-aplicacao-java">
+    <title>Cambio de Versión de Aplicación Java</title>
+    <shortdesc>Tarea que describe cómo realizar el cambio de versión de una aplicación Java.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Esta tarea asume que tienes acceso a los servidores de aplicación y al balanceador de carga configurados correctamente.</p>
+        </context>
+        <steps>
+            <step><cmd>Configura el balanceador de carga para incluir el nuevo servicio en la configuración.</cmd></step>
+            <step><cmd>Inicia la aplicación nueva en el servidor de aplicación.</cmd></step>
+            <step><cmd>Redirige el tráfico a través del balanceador de carga hacia la nueva aplicación.</cmd></step>
+            <step><cmd>Verifica que la nueva aplicación esté funcionando correctamente y respondiendo a las solicitudes.</cmd></step>
+            <step><cmd>Desactiva el balanceador de carga para redirigir el tráfico hacia la aplicación antigua.</cmd></step>
+            <step><cmd>Verifica que no haya más tráfico siendo dirigido hacia la aplicación antigua.</cmd></step>
+            <step><cmd>Detiene la aplicación antigua en el servidor de aplicación.</cmd></step>
+            <step><cmd>Elimina la aplicación antigua del servidor para liberar recursos.</cmd></step>
+            <step><cmd>Verifica que el cambio de versión se haya completado exitosamente y que la nueva aplicación esté funcionando según lo esperado.</cmd></step>
+        </steps>
+    </taskbody>
+</task>
+

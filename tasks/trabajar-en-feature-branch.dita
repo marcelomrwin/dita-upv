@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="trabajar-en-feature-branch">
+    <title>Trabajar en una Rama de Función y Realizar la Entrega en la Rama Principal</title>
+    <shortdesc>Tarea que describe cómo un desarrollador puede trabajar en una feature branch y realizar la entrega en la branch principal a través de una merge request.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Esta tarea asume que estás utilizando un sistema de control de versiones como Git y una plataforma de colaboración como GitLab o GitHub.</p>
+        </context>
+        <steps>
+            <step><cmd>Crea una nueva rama de función (feature branch) en tu repositorio de Git.</cmd></step>
+            <step><cmd>Trabaja en la rama de función para implementar la nueva funcionalidad o corrección de errores.</cmd></step>
+            <step><cmd>Realiza commits frecuentes en tu rama de función para guardar tus cambios de forma incremental.</cmd></step>
+            <step><cmd>Cuando tu trabajo en la rama de función esté completo y listo para ser integrado en la rama principal, crea una solicitud de extracción (merge request) en tu plataforma de colaboración.</cmd></step>
+            <step><cmd>Asigna revisores a tu solicitud de extracción para que puedan revisar tu código y proporcionar comentarios si es necesario.</cmd></step>
+            <step><cmd>Realiza los cambios sugeridos por los revisores y actualiza tu solicitud de extracción según sea necesario.</cmd></step>
+            <step><cmd>Cuando tu solicitud de extracción haya sido aprobada por los revisores, realiza el merge (combinación) de tu rama de función en la rama principal (main o master) de tu repositorio de Git.</cmd></step>
+            <step><cmd>Verifica que tus cambios se hayan integrado correctamente en la rama principal y que la funcionalidad esté funcionando como se espera.</cmd></step>
+        </steps>
+    </taskbody>
+</task>
+

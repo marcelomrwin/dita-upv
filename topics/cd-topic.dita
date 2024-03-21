@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="cd_topic">
+    <title>Continuous Deployment y Continuous Delivery</title>
+    <shortdesc>Esta sección describe cómo utilizar la disciplina de Continuous Deployment y Continuous Delivery</shortdesc>
+    <body>
+        <bodydiv>
+            <p>Este proceso define cómo entregar continuamente activos de software.</p>
+        </bodydiv>
+    </body>
+</topic>

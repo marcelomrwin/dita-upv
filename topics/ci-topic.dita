@@ -3,4 +3,9 @@
 <topic id="ci_topic">
     <title>Integración continua</title>
     <shortdesc>Esta sección describe cómo utilizar la disciplina de integración continua.</shortdesc>
+    <body>
+        <bodydiv>
+            <p>Este proceso implica construir, validar, verificar, empaquetar e implementar el activo de software en un repositorio corporativo.</p>
+        </bodydiv>
+    </body>
 </topic>

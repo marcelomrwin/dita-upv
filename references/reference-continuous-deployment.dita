@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference-continuous-deployment">
+    <title>Continuous Deployment y Continuous Delivery</title>
+    <shortdesc>Explicación sobre Continuous Deployment y su relación con Continuous Delivery.</shortdesc>
+    <refbody>
+        <section>
+            <title>Continuous Deployment</title>
+            <p>Continuous Deployment es una práctica en la que cada cambio de código que pasa los criterios de pruebas automatizadas es automáticamente desplegado en producción. Esto significa que el código nuevo es implementado sin intervención humana adicional después de las pruebas.</p>
+            <p>El objetivo principal del Continuous Deployment es proporcionar una forma eficiente y rápida de llevar las nuevas características y correcciones de errores a los usuarios finales.</p>
+        </section>
+        <section>
+            <title>Continuous Delivery</title>
+            <p>Continuous Delivery es una práctica relacionada que se centra en asegurar que el software esté siempre en un estado desplegable, es decir, que cualquier versión del software pueda ser implementada en cualquier momento. Esto implica la automatización de procesos de construcción, pruebas y despliegue para garantizar que el software sea siempre estable y listo para su lanzamiento.</p>
+            <p>Continuous Delivery establece la base para Continuous Deployment, ya que garantiza que el software esté siempre en un estado que pueda ser desplegado, lo que facilita la implementación automática del software en producción.</p>
+        </section>
+        <section>
+            <title>Relación entre Continuous Deployment y Continuous Delivery</title>
+            <p>Continuous Deployment y Continuous Delivery están estrechamente relacionados y a menudo se utilizan juntos en los entornos de desarrollo de software ágiles y DevOps. Continuous Delivery proporciona los procesos y herramientas necesarios para garantizar que el software sea desplegable en cualquier momento, mientras que Continuous Deployment lleva esto un paso más allá al automatizar el despliegue de cada cambio de código que pase las pruebas.</p>
+            <p>Juntos, Continuous Deployment y Continuous Delivery permiten a los equipos de desarrollo y operaciones entregar rápidamente nuevas características y correcciones de errores a los usuarios finales de manera segura y confiable.</p>
+        </section>
+        <section>
+            <title>La adopción de Continuous Deployment y Continuous Delivery es fundamental en el desarrollo de software moderno por varias razones clave:</title>            
+            <ul>
+                <li>Entrega Rápida de Valor al Cliente
+                <ul>
+                    <li>Estas prácticas permiten entregar nuevas características y correcciones de errores a los usuarios finales de manera rápida y frecuente. Al automatizar los procesos de construcción, pruebas y despliegue, los equipos pueden liberar cambios de manera eficiente y segura, mejorando la experiencia del usuario y manteniendo la competitividad en el mercado</li>
+                </ul>
+                </li>
+                <li>Reducción del Riesgo y la Incertidumbre
+                <ul>
+                    <li>Continuous Delivery garantiza que el software esté siempre en un estado desplegable y probado, lo que reduce el riesgo asociado con la implementación de cambios en producción. Al realizar despliegues pequeños y frecuentes, cualquier problema puede detectarse y corregirse rápidamente, lo que disminuye la incertidumbre y aumenta la confianza en el software</li>
+                </ul>
+                </li>
+                <li>Iteración y Retroalimentación Continuas
+                <ul>
+                    <li>Estas prácticas fomentan un ciclo de desarrollo iterativo, donde los equipos pueden experimentar, aprender y mejorar continuamente. Al recibir retroalimentación rápida de los usuarios finales a través de despliegues frecuentes, los equipos pueden adaptar sus productos de manera ágil y responder rápidamente a las necesidades cambiantes del mercado</li>
+                </ul>
+                </li>
+                <li>Mejora de la Colaboración y la Cultura de Equipo
+                <ul>
+                    <li>Continuous Deployment y Continuous Delivery promueven una cultura de colaboración y responsabilidad compartida entre los equipos de desarrollo y operaciones. Al automatizar los procesos y trabajar en estrecha colaboración para lograr despliegues confiables y frecuentes, se fortalecen los lazos entre los equipos y se crea un ambiente de trabajo más eficiente y orientado a resultados</li>
+                </ul>
+                </li>
+            </ul>
+        </section>
+    </refbody>
+</reference>
+

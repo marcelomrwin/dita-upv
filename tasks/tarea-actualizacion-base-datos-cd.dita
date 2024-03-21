@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="tarea-actualizacion-base-datos-cd">
+    <title>Actualizar Base de Datos en un Flujo de Continuous Deployment (CD)</title>
+    <shortdesc>Tarea que describe cómo realizar la actualización de la base de datos dentro de un flujo de Continuous Deployment (CD).</shortdesc>
+    <taskbody>
+        <context>
+            <p>Esta tarea asume que tienes acceso a los archivos de scripts de base de datos, así como a las herramientas y políticas de respaldo necesarias.</p>
+        </context>
+        <steps>
+            <step><cmd>Selecciona los archivos de script de base de datos necesarios para la actualización.</cmd></step>
+            <step><cmd>Identifica y selecciona la base de datos objetivo donde se realizará la actualización.</cmd></step>
+            <step><cmd>Activa las políticas de respaldo correspondientes para garantizar la integridad de los datos antes de la actualización.</cmd></step>
+            <step><cmd>Verifica y valida los scripts de actualización de base de datos para evitar errores.</cmd></step>
+            <step><cmd>Ejecuta los scripts de actualización en la base de datos objetivo.</cmd></step>
+            <step><cmd>Despliega cambios en la aplicación para reflejar las actualizaciones de la base de datos.</cmd></step>
+            <step><cmd>Archiva los registros de scripts con los resultados de la actualización para futuras referencias y auditorías.</cmd></step>
+            <step><cmd>Verifica la integridad y estabilidad de la base de datos actualizada y la funcionalidad de la aplicación.</cmd></step>
+        </steps>
+    </taskbody>
+</task>
+

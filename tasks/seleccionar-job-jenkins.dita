@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="seleccionar-job-jenkins">
+    <title>Seleccionar Trabajo en Jenkins y Configurar Variables de Ambiente</title>
+    <shortdesc>Tarea que describe cómo seleccionar un trabajo en Jenkins, configurar los parámetros del paquete a ser instalado, seleccionar el ambiente de implementación y configurar las variables de ambiente antes de ejecutar el trabajo.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Esta tarea asume que tienes acceso a Jenkins y al trabajo configurado correctamente.</p>
+        </context>
+        <steps>
+            <step><cmd>Abre tu navegador web y accede al tablero de Jenkins.</cmd></step>
+            <step><cmd>Inicia sesión con tus credenciales de usuario.</cmd></step>
+            <step><cmd>Busca y selecciona el trabajo en Jenkins configurado para la implementación del paquete.</cmd></step>
+            <step><cmd>Busca la opción para configurar los parámetros del paquete a ser instalado.</cmd></step>
+            <step><cmd>Ingresa los detalles del paquete, como el grupo, el artefacto y la versión.</cmd></step>
+            <step><cmd>Selecciona el ambiente de implementación donde deseas instalar el paquete.</cmd></step>
+            <step><cmd>Configura las variables de ambiente necesarias, como las credenciales de la base de datos.</cmd></step>
+            <step><cmd>Guarda la configuración del trabajo en Jenkins.</cmd></step>
+            <step><cmd>Ejecuta el trabajo en Jenkins.</cmd></step>
+            <step><cmd>Espera a que el trabajo se complete y verifica el resultado para asegurarte de que las variables de ambiente y los parámetros del paquete se hayan configurado correctamente.</cmd></step>
+        </steps>        
+    </taskbody>
+    
+</task>
+
