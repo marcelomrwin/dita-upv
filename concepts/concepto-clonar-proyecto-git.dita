@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concepto-clonar-proyecto-git">
+    <title>Clonar un Proyecto de un Repositorio Git</title>
+    <shortdesc>Concepto sobre la acción de clonar un proyecto desde un repositorio Git.</shortdesc>
+    <conbody>
+        <p>Clonar un proyecto de un repositorio Git es el proceso de crear una copia local del repositorio en tu máquina.</p>
+        <p>Esta acción te permite trabajar con el código del proyecto, realizar cambios y contribuciones.</p>
+    </conbody>
+</concept>
+

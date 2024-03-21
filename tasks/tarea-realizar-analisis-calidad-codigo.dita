@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="tarea-realizar-analisis-calidad-codigo">
+    <title>Realizar Análisis de Calidad de Código con SonarQube</title>
+    <shortdesc>Tarea que describe cómo realizar análisis de calidad de código fuente utilizando SonarQube.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Esta tarea asume que tienes configurado un proyecto en SonarQube y acceso a una instancia de SonarQube en tu entorno de desarrollo.</p>
+        </context>
+        <steps>
+            <step><cmd>Abre un navegador web y accede a la interfaz de SonarQube.</cmd></step>
+            <step><cmd>Inicia sesión con tus credenciales de usuario.</cmd></step>
+            <step><cmd>Selecciona el proyecto que deseas analizar.</cmd></step>
+            <step><cmd>Configura las opciones de análisis según tus necesidades, como reglas de calidad, perfiles de análisis, y configuraciones adicionales.</cmd></step>
+            <step><cmd>Ejecuta el análisis de calidad de código desde la interfaz de SonarQube.</cmd></step>
+            <step><cmd>Espera a que se complete el análisis y revisa los resultados obtenidos.</cmd></step>
+            <step><cmd>Analiza los informes generados por SonarQube y toma las medidas necesarias para abordar los problemas identificados.</cmd></step>
+        </steps>
+    </taskbody>
+</task>

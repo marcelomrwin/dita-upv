@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concepto-compilar-aplicacion-java">
+    <title>Compilar una Aplicación Java</title>
+    <shortdesc>Concepto sobre cómo compilar una aplicación Java.</shortdesc>
+    <conbody>
+        <p>Compilar una aplicación Java implica preparar tu entorno de desarrollo instalando y configurando el JDK (Java Development Kit).</p>
+        <p>Para compilar una aplicación Java, necesitas seguir varios pasos, incluyendo la instalación y configuración del JDK, así como configurar las variables de entorno.</p>
+    </conbody>
+</concept>
+

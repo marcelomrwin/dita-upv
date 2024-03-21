@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="integración_continua">
+    <title>Integración Continua</title>
+    <shortdesc>Práctica de desarrollo de software</shortdesc>
+    <conbody>
+        <p>La Integración Continua (CI) es una práctica de desarrollo de software en la cual los desarrolladores integran su código en un repositorio compartido varias veces al día.</p>
+        <p>El objetivo de la CI es detectar y corregir problemas de integración tan pronto como sea posible, asegurando que el código siempre esté en un estado funcional.</p>
+        <p>Mediante el uso de la CI, los equipos de desarrollo pueden automatizar el proceso de compilación, pruebas e implementación, mejorando así la calidad del software y acelerando el ciclo de desarrollo.</p>
+    </conbody>
+</concept>

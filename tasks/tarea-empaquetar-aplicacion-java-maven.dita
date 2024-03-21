@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="tarea-empaquetar-aplicacion-java-maven">
+    <title>Empaquetar una Aplicación Java con Maven</title>
+    <shortdesc>Tarea que describe cómo empacotar una aplicación Java utilizando Maven.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Esta tarea assume que tienes Maven instalado en tu sistema y un proyecto Java configurado con un archivo pom.xml.</p>
+        </context>
+        <steps>
+            <step><cmd>Abre una terminal o línea de comandos.</cmd></step>
+            <step><cmd>Navega hasta el directorio raíz de tu proyecto Java.</cmd></step>
+            <step><cmd>Ejecuta el comando mvn package para empacotar la aplicación.</cmd></step>
+            <step><cmd>Espera a que Maven compile el código y genere el archivo JAR o WAR.</cmd></step>
+            <step><cmd>Verifica la salida de la consola para confirmar que el proceso de empaquetado se completó correctamente.</cmd></step>
+        </steps>
+    </taskbody>
+</task>
+

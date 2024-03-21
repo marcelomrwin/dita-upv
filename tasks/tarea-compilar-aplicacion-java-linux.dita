@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="tarea-compilar-aplicacion-java-linux">
+    <title>Compilar una Aplicación Java en Linux</title>
+    <shortdesc>Tarea que describe cómo compilar una aplicación Java en un sistema Linux.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Siga estos pasos para instalar, configurar y compilar una aplicación Java con JDK 17 o superior en el entorno Linux</p>
+        </context>
+        <steps>
+            <step><cmd>Descarga el JDK 17 o una versión posterior desde el sitio web oficial de Oracle o de un proveedor de confianza.</cmd></step>
+            <step><cmd>Instala el JDK en tu sistema Linux siguiendo las instrucciones proporcionadas por el proveedor o utilizando el gestor de paquetes de tu distribución.</cmd></step>
+            <step><cmd>Configura la variable de entorno JAVA_HOME apuntando al directorio de instalación del JDK.</cmd></step>
+            <step><cmd>Agrega la ruta del directorio bin del JDK al PATH del sistema.</cmd></step>
+            <step><cmd>Abre una terminal y navega hasta el directorio donde se encuentra el código fuente de tu aplicación Java.</cmd></step>
+            <step><cmd>Compila tu aplicación Java utilizando el comando "javac NombreDelArchivo.java".</cmd></step>
+        </steps>
+    </taskbody>
+</task>
+

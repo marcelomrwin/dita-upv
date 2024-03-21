@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="tarea-transferir-nexus-gui">
+    <title>Transferir Paquete a Sonatype Nexus a través de Interfaz Gráfica</title>
+    <shortdesc>Tarea que describe cómo transferir el paquete generado al repositorio Sonatype Nexus a través de la interfaz gráfica de la herramienta.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Esta tarea asume que tienes acceso a la interfaz gráfica de Sonatype Nexus y permisos para realizar la transferencia.</p>
+        </context>
+        <steps>
+            <step><cmd>Abre tu navegador web y accede a la URL de la interfaz gráfica de Sonatype Nexus.</cmd></step>
+            <step><cmd>Inicia sesión con tus credenciales de usuario.</cmd></step>
+            <step><cmd>Navega hasta el repositorio donde deseas transferir el paquete.</cmd></step>
+            <step><cmd>Localiza la opción para cargar o transferir archivos.</cmd></step>
+            <step><cmd>Selecciona el paquete generado en tu proyecto y sube el archivo al repositorio Nexus.</cmd></step>
+            <step><cmd>Espera a que se complete la carga y verifica en la interfaz gráfica que el paquete se haya transferido correctamente.</cmd></step>
+        </steps>
+    </taskbody>
+</task>
+

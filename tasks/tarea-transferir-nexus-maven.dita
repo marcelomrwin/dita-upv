@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="tarea-transferir-nexus-maven">
+    <title>Transferir paquete a Sonatype Nexus con Maven (línea de comando)</title>
+    <shortdesc>Tarea que describe cómo transferir el paquete generado al repositorio de Sonatype Nexus usando Maven a través de la línea de comando.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Esta tarea supone que tienes Maven y acceso al repositorio de Sonatype Nexus configurado correctamente.</p>
+        </context>
+        <steps>
+            <step><cmd>Abre una terminal o línea de comandos.</cmd></step>
+            <step><cmd>Navega hasta el directorio raíz de tu proyecto Java.</cmd></step>
+            <step><cmd>Ejecuta el comando "mvn deploy" para transferir el paquete generado al repositorio Nexus.</cmd></step>
+            <step><cmd>Espera a que Maven complete la transferencia y verifícala en la consola para asegurarte de que se haya realizado correctamente.</cmd></step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="continuous_integration">
+    <title>Herramientas de integración continua</title>
+    <shortdesc>Información sobre herramientas comunes utilizadas en la práctica de Integración Continua.</shortdesc>
+    <refbody>
+        <section>
+            <title>Jenkins</title>
+            <p>Jenkins es una herramienta de automatización de código abierto ampliamente utilizada para la implementación de CI y entrega continua (Continuous Delivery - CD). Puede encontrar más información en https://www.jenkins.io/.</p>
+        </section>
+        <section>
+            <title>Sonatype Nexus</title>
+            <p>Sonatype Nexus es una plataforma de gestión de repositorios de artefactos que se puede integrar con Jenkins para la entrega continua de artefactos de software. Puede encontrar más información en https://www.sonatype.com/nexus/repository-pro.</p>
+        </section>
+        <section>
+            <title>SonarQube</title>
+            <p>SonarQube es una herramienta de análisis estático de código que se utiliza en el proceso de integración continua para detectar problemas de calidad de código y vulnerabilidades. Puede encontrar más información en https://www.sonarqube.org/.</p>
+        </section>
+    </refbody>
+</reference>

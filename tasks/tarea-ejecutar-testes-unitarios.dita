@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="tarea-ejecutar-testes-unitarios">
+    <title>Ejecutar Testes Unitarios con Maven y JUnit</title>
+    <shortdesc>Tarea que describe cómo ejecutar testes unitarios en una aplicación Java utilizando Maven y JUnit.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Esta tarea asume que tienes Maven instalado en tu sistema y un proyecto Java configurado con JUnit para pruebas unitarias.</p>
+        </context>
+        <steps>
+            <step><cmd>Abre una terminal o línea de comandos.</cmd></step>
+            <step><cmd>Navega hasta el directorio raíz de tu proyecto Java.</cmd></step>
+            <step><cmd>Ejecuta el comando "mvn test" para compilar el proyecto y ejecutar los testes unitarios.</cmd></step>
+            <step><cmd>Espera a que Maven descargue las dependencias, compile el código y ejecute los testes.</cmd></step>
+            <step><cmd>Verifica la salida de la consola para ver los resultados de los testes.</cmd></step>
+        </steps>
+    </taskbody>
+</task>
+
+
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="tarea-clonar-proyecto-git">
+    <title>Clonar un Proyecto de un Repositorio Git</title>
+    <shortdesc>Tarea que describe cómo clonar un proyecto desde un repositorio Git.</shortdesc>
+    <taskbody>
+        <steps>
+            <step><cmd>Abre tu terminal o línea de comandos.</cmd></step>
+            <step><cmd>Navega al directorio donde deseas clonar el proyecto.</cmd></step>
+            <step><cmd>Ejecuta el comando "git clone [URL del repositorio]".</cmd></step>
+            <step><cmd>Presiona Enter y espera a que se complete el proceso de clonación.</cmd></step>
+        </steps>
+    </taskbody>
+</task>

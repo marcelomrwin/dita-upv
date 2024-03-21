@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference-testes-unitarios-maven-junit">
+    <title>Testes Unitarios con Maven y JUnit 5</title>
+    <shortdesc>Información sobre la práctica de pruebas unitarias en Java utilizando Maven y JUnit 5.</shortdesc>
+    <refbody>
+        <section>
+            <title>Introducción</title>
+            <p>Las pruebas unitarias son una práctica fundamental en el desarrollo de software para garantizar la calidad y el funcionamiento correcto de las unidades de código.</p>
+            <p>Maven es una herramienta de automatización de compilación y gestión de dependencias ampliamente utilizada en el ecosistema Java.</p>
+            <p>JUnit 5 es un framework de pruebas unitarias para Java, conocido por su flexibilidad y poderosas funcionalidades.</p>
+        </section>
+        <section>
+            <title>Configuración</title>
+            <p>Para escribir y ejecutar pruebas unitarias con Maven y JUnit 5 en un proyecto Java, es necesario configurar el entorno de desarrollo correctamente y definir las dependencias apropiadas en el archivo de configuración del proyecto (pom.xml).</p>
+            <p>Con la configuración adecuada, las pruebas unitarias pueden ser escritas utilizando las anotaciones y clases proporcionadas por JUnit 5 y ejecutadas utilizando Maven a través del comando "mvn test".</p>
+        </section>
+        <section>
+            <title>Automatización</title>
+            <p>Mediante la integración entre Maven y JUnit 5, los desarrolladores pueden automatizar el proceso de ejecución de pruebas unitarias, garantizando la calidad del software desarrollado.</p>
+        </section>
+    </refbody>
+</reference>
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concepto-analisis-calidad-codigo">
+    <title>Análisis de Calidad de Código Fuente</title>
+    <shortdesc>Concepto sobre la práctica de realizar análisis de calidad de código fuente en proyectos de software.</shortdesc>
+    <conbody>
+        <p>El análisis de calidad de código fuente es una actividad importante en el desarrollo de software para evaluar la salud general del código y detectar posibles problemas y áreas de mejora.</p>
+        <p>Esta práctica implica el uso de herramientas automatizadas que examinan el código fuente en busca de violaciones de estándares de codificación, bugs, vulnerabilidades de seguridad, y otros problemas que puedan afectar la calidad y el rendimiento del software.</p>
+        <p>El análisis de calidad de código fuente ayuda a los equipos de desarrollo a identificar y corregir problemas tempranamente, mejorar la mantenibilidad del código y reducir el riesgo de errores en el software.</p>
+    </conbody>
+</concept>

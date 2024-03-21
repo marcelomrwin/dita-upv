@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concepto-testes-unitarios">
+    <title>Testes Unitarios</title>
+    <shortdesc>Concepto sobre la práctica de realizar pruebas unitarias en el desarrollo de software.</shortdesc>
+    <conbody>
+        <p>Los testes unitarios son una práctica fundamental en el desarrollo de software.</p>
+        <p>Consisten en escribir y ejecutar pruebas automatizadas para verificar el funcionamiento de unidades de código a nivel de método o clase.</p>
+        <p>Los testes unitarios ayudan a identificar y corregir errores de manera temprana, garantizando la integridad y la calidad del código.</p>
+    </conbody>
+</concept>
+
