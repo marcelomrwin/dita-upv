@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Manual técnico para desarrolladores principiantes de Java y Linux</title>
+    <topicref href="topics/ci-topic.dita">
+        <topicref href="concepts/integraci%C3%B3n_continua.dita"/>
+        <topicref href="references/continuous-integration.dita"/>
+        <topicref href="concepts/concepto-testes-unitarios.dita"/>
+        <topicref href="references/reference-testes-unitarios-maven-junit.dita"/>
+    </topicref>
+    <topicref href="concepts/concepto-clonar-proyecto-git.dita">
+        <topicref href="tasks/tarea-clonar-proyecto-git.dita"/>
+    </topicref>
+    <topicref href="concepts/concepto-compilar-aplicacion-java.dita">
+        <topicref href="tasks/tarea-compilar-aplicacion-java-linux.dita"/>
+    </topicref>
+    <topicref href="concepts/concepto-testes-unitarios.dita">
+        <topicref href="tasks/tarea-ejecutar-testes-unitarios.dita"/>
+    </topicref>
+    <topicref href="concepts/concepto-analisis-calidad-codigo.dita"/>
+    <topicref href="tasks/trabajar-en-feature-branch.dita"/>    
+</map>

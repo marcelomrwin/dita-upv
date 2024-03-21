@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Manual para ejecutar el pipeline de Jenkins y cambiar la versión de la aplicación java</title>
+    <topicref href="topics/cd-topic.dita">
+        <topicref href="references/reference-continuous-deployment.dita"/>
+    </topicref>
+    <topicref href="tasks/tarea-empaquetar-aplicacion-java-maven.dita"/>
+    <topicref href="concepts/concepto-analisis-calidad-codigo.dita">
+        <topicref href="tasks/tarea-realizar-analisis-calidad-codigo.dita"/>
+    </topicref>
+    <topicref href="tasks/tarea-transferir-nexus-maven.dita"/>
+    <topicref href="tasks/troca-versao-aplicacao-java.dita"/>
+</map>
